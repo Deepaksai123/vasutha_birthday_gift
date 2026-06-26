@@ -1,221 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
 <meta charset="UTF-8">
-
-<meta name="viewport"
-content="width=device-width, initial-scale=1.0">
-
-<title>Happy Birthday Vasutha ❤️</title>
-
-<link rel="stylesheet"
-href="birthday_gift_page.css">
-
-<link rel="preconnect"
-href="https://fonts.googleapis.com">
-
-<link rel="preconnect"
-href="https://fonts.gstatic.com"
-crossorigin>
-
-<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Poppins:wght@300;400;600;700&display=swap"
-rel="stylesheet">
-
+<title>Happy Birthday ❤️</title>
+<link rel="stylesheet" href="birthday_gift_page.css">
 </head>
-
 <body>
 
-<!-- Floating Petals -->
-
-<div id="petals"></div>
-
-<!-- Floating Hearts -->
-
-<div id="hearts"></div>
-
-<!-- Stars -->
-
-<div id="stars"></div>
-
-<!-- ======================== -->
-<!-- PAGE 1 -->
-<!-- ======================== -->
-
-<section
-id="page1"
-class="page">
-
-<div class="glass">
-
-<h1 class="title">
-
-🌸
-
-<br>
-
-For Someone
-
-<br>
-
-Truly Beautiful
-
-</h1>
-
-<p class="subtitle">
-
-A small surprise made with admiration
-
-and best wishes...
-
-</p>
-
-<button
-class="magicButton"
-onclick="showLetter()">
-
-✨ Tap To Begin ✨
-
-</button>
-
+<div id="page1" class="page">
+    <div class="card">
+        <h1>🌸 For Someone Very Special 🌸</h1>
+        <button onclick="showPage2()">Click Me Beautiful ❤️</button>
+    </div>
 </div>
 
-</section>
+<div id="page2" class="page hidden">
+    <div class="quote-card">
+        <h2>
+        Some people make the world beautiful just by being in it.
+        You are one of them. ❤️
+        </h2>
 
-<!-- ======================== -->
-<!-- PAGE 2 -->
-<!-- ======================== -->
+        <p>
+        Today is not just your birthday.
+        It is the day the world received one of its most beautiful gifts.
+        </p>
 
-<section
-id="page2"
-class="page hidden">
-
-<div class="letter">
-
-<h2>
-
-💌
-
-A Little Letter
-
-</h2>
-
-<p id="typewriter">
-
-</p>
-
-<button
-class="magicButton"
-onclick="showGallery()">
-
-Open Your Birthday Surprise 🌸
-
-</button>
-
+        <button onclick="showGallery()">
+            Open Your Surprise 🎁
+        </button>
+    </div>
 </div>
 
-</section>
+<div id="page3" class="page hidden">
 
-<!-- ======================== -->
-<!-- PAGE 3 -->
-<!-- ======================== -->
-
-<section
-id="page3"
-class="page hidden">
-
-<h1 class="birthdayHeading">
-
-🎂 Happy Birthday Vasutha 🎂
-
+<h1 class="birthday-title">
+🎂 Happy Birthday My Princess ❤️
 </h1>
-
-<p class="galleryQuote">
-
-"Some memories deserve to bloom forever."
-
-</p>
 
 <div class="gallery">
 
-<img
-id="img1"
-src="pic1.jpeg">
-
-<img
-id="img2"
-src="pic2.jpg">
-
-<img
-id="img3"
-src="pic3.jpg">
-
-<img
-id="img4"
-src="pic4.jpeg">
-
-<img
-id="img5"
-src="pic5.jpeg">
+<img id="img1" src="pic1.jpeg">
+<img id="img2" src="pic2.jpg">
+<img id="img3" src="pic3.jpg">
+<img id="img4" src="pic4.jpeg">
+<img id="img5" src="pic5.jpeg">
 
 </div>
 
 <div class="message">
+🌹 Happy Birthday Beautiful 🌹
 
-🌸 Happy Birthday To A Truly Wonderful Person 🌸
+Thank you for bringing happiness into my life.
 
-<br><br>
+May your smile always stay bright,
+your dreams come true,
+and your heart remain as beautiful as it is today.
 
-Some people have a beautiful smile.
+I am lucky to know you.
 
-Some have a beautiful heart.
-
-Some inspire happiness simply by being themselves.
-
-You are one of those rare people who possess all three.
-
-<br><br>
-
-May every dream you hold close to your heart find its way into reality.
-
-May every new sunrise bring another reason to smile.
-
-May happiness, success, peace, and beautiful memories always accompany your journey.
-
-<br><br>
-
-Keep shining with confidence,
-
-keep spreading kindness,
-
-and continue making the world a more beautiful place simply by being you.
-
-<br><br>
-
-✨ Wishing You A Birthday Filled With Joy,
-
-Laughter,
-
-Beautiful Moments,
-
-and Endless Smiles. ✨
-
-<br><br>
-
-🌹 Happy Birthday, Beautiful Soul 🌹
+❤️ Forever Special ❤️
+</div>
 
 </div>
 
-<div id="fireworks"></div>
-
-</section>
-
-<script
-src="birthday_gift.js">
-
-</script>
-
+<script src="birthday_gift.js"></script>
 </body>
-
 </html>
